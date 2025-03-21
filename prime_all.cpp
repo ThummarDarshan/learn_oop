@@ -1,36 +1,27 @@
 #include<iostream>
 using namespace std;
-int main()
-{
-    int n,div=2,num=2;
-    cout<<"Enter the Number =";
-    cin>>n;
 
-    x : if(num>n)
+int main ( )
+{
+    int n,c=0;
+    cout<<"Enter the number :";
+    cin>>n;
+    for(int i=2;i<=n;i++)
     {
-        return 0;
+        for(int div=2;div<i;div++)
+        {
+            if(i%div==0)
+            {
+                c++;
+                break;
+            } 
+        }
+        if(c==0)
+        {
+            cout<<i<<endl;
+
+        }
+        c=0;
     }
-    else
-    {
-       y: if(div<num)
-        {
-            if(num%div==0)
-            {
-                num=num+1;
-                goto x;
-            }
-            else
-            {
-                div=div+1;
-                goto y;
-            }
-        }
-        else
-        {
-            cout<<num<<"\n";
-            num =num+1;
-            goto x;
-        }
-    }cout<<n;
-  return 0;
+    return 0;
 }
