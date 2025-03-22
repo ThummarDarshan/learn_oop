@@ -1,16 +1,24 @@
 #include<iostream>
 using namespace std;
+int factorial(int n)
+{
+    if(n==1)
+    {
+        return 1;
+    }
+    else 
+    {
+        return  n * factorial(n-1)  ;
+    }
+}
 
 int main()
 {
-    int n,sum=0,i;
+    int n,fact;
     cout<<"Enter the Number =";
     cin>>n;
-   for(int i=1; i< n;i++)
-   {
-      i= i*(i+1);
-   }
-   cout<<i;
+   fact = factorial(n);
+   cout<<fact;
 
     return 0;
 }
