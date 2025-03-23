@@ -9,10 +9,11 @@ int main()
 
         if(ch>=65&& ch<=90)
         {
-            cout<<"\n"<<"lowercase\n" ;
+             cout<<"uppercase\n";
+
         }
         else
         {
-            cout<<"uppercase\n";
+            cout<<"lowercase\n" ;
         }
 }
