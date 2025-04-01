@@ -1,28 +1,29 @@
+
+
+
 #include <iostream>
 using namespace std;
 
-int digit_sum(int n)
-{
-    int sum=0;
-    int num=n;
-    do
-    {
-        int r=num%10;
-        num=num/10;
-        sum += r;
 
-    } while (num>0);
-
-
-cout<<"sum of single digit = "<<sum;
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-int main()
-{
-    int n,sum;
+int main() {
+    int n,sum=0;
+    cout << "Enter the number of terms: ";
+    cin >> n;
 
-   cout<<"enter the number";
-   cin>>n;
-   digit_sum(n);
+    cout << "Fibonacci Series: ";
+    for (int i = 0; i <= n; i++) {
+        sum +=fibonacci(i) ;
+    }
 
+    cout<<sum;
+    cout << endl;
+
+    return 0;
 }
