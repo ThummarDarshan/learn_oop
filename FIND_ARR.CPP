@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 int FINDArr(int arr[],int num,int size)
 
 {
