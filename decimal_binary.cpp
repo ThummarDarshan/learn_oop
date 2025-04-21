@@ -3,6 +3,7 @@ using namespace std;
 
 int decTobinary(int decNum)
 {
+
     int ans=0,power=1;
 
         while(decNum>0)
