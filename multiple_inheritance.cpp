@@ -49,6 +49,21 @@ class Derived : public Base1, public Base2
         }
 };
 
+
+/*
+
+the inheriteed derived class will look something like this :
+Data members :-
+    base1int --> protected
+    base2int --> protected
+
+Member function :-
+    set_base1int() --> public
+    set_base2int() --> public
+    show() --> public
+
+*/
+
 int main()
 {
     Derived abc;

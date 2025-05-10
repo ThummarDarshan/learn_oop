@@ -42,6 +42,8 @@ class scientificcalculator:public simplecalculator
 			cout<<"Cuberoot of b is "<<cbrt(b)<<endl;
 			cout<<"a to the power b is "<<pow(a,b)<<endl;
 
+			cout<<"The value of cos(a) is "<<cos(a)<<endl;
+
 		}
 };
 
@@ -57,7 +59,7 @@ class Hybridcalculator:public scientificcalculator
 };
 
 int main()
-{
+
 {
 	Hybridcalculator h;
 	h.display();
