@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 /*
 case 1:
     class B : public A
