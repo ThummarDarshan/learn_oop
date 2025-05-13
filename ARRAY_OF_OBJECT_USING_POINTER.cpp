@@ -24,7 +24,7 @@ class ShopItem
 int main()
 {
     int size=3,p,q;
-    ShopItem *ptr = new ShopItem[size];
+    ShopItem *ptr = new ShopItem[size];  // here making the array
     ShopItem *ptrTemp = ptr;
 
 
