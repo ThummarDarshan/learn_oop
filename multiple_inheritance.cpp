@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-
 /*
 syntex for inheriting in  multiple inheritance
     class Derived : visiblity-mode base1 , visiblity-mode base2
