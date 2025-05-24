@@ -9,7 +9,8 @@ int main()
     int a=4;
     int *ptr = &a;
 
-    cout<<"The value of a is "<<*(ptr)<<endl;
+    cout<<"The value of a is "
+<<*(ptr)<<endl;
 
     //new keyword
     int *p = new int (40);
