@@ -3,7 +3,6 @@ using namespace std;
 
 template <class T1=int ,class T2=float , class T3=char>
 
-
 class Darshan
 {
     public  :
