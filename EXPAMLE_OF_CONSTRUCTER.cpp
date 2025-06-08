@@ -2,6 +2,7 @@
 #include <cmath>
 using namespace std;
 
+
 class point
 {
     int x, y;
