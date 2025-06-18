@@ -1,4 +1,3 @@
-
 #include<iostream>
 using namespace std;
 //destructor never takes arguments nor does ot return any values
