@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int digit_sum(int n)
 {
     int sum=0;
