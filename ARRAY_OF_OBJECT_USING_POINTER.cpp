@@ -20,7 +20,6 @@ class ShopItem
 };
 
 
-
 int main()
 {
     int size=3,p,q;
