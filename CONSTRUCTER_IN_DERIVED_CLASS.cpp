@@ -4,7 +4,7 @@ using namespace std;
 case 1:
     class B : public A
     {
-        order of execution of constructor -> first A() then B()
+         order of execution of constructor -> first A() then B()
     };
 
 case 2 :
