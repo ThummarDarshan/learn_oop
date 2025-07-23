@@ -6,7 +6,6 @@ case 1:
     {
          order of execution of constructor -> first A() then B()
     };
-
 case 2 :
     class A : public B,public C
     {
